@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmolinkships</title>
+
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+   
+
+    <header class="site-header">
+        <div class="container">
+          <a href="/" class="logo">
+            <img src="./pics/logo2.png" alt="Inship Services">
+          </a>
+      
+          <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+      
+          <nav class="nav">
+            <ul>
+              <li><a href="./index.html" class="active">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <li><a href="./careers.html">Careers</a></li>
+              <li><a href="./contact.html" class="btn-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+<!-- Hero Banner -->
+<section class="hero-ship">
+  <div class="hero-ship__inner">
+    <h1>Navigating Safely</h1>
+    <h2>Cosmolinkships specializes in comprehensive ship management and marine technical consultancy services</h2>
+    <a href="./about.html" class="btn-ship">About us</a>
+  </div>
+</section>
+
+
+<section class="service-info-card">
+  <p>
+    Delivering <span class="highlight">reliable ship management</span> and 
+    <span class="highlight">technical consultancy</span> for the global maritime industry.
+  </p>
+  <a href="./services.html" class="service-btn">OUR SERVICES</a>
+</section>
+
+
+
+<section class="offer-mosaic">
+  <!-- Top: Mission / Quote band -->
+  <aside class="mosaic-mission">
+    <span class="mosaic-quote">“</span>
+    <p class="offerpara">
+      At Cosmolinkships, we are dedicated to delivering dependable and efficient services to our clients, managing every project from inception to completion with precision.
+Our integrated ship management solutions ensure that our clients are relieved from operational burdens, enabling smooth and compliant operations.
+With a steadfast commitment to international quality standards, we take pride in the trust and long-term partnerships built with our global clientele.
+    </p>
+  </aside>
+
+  <!-- Title -->
+  <h3 class="mosaic-title">WHAT WE OFFER</h3>
+
+  <!-- 3x3 grid of offer cards -->
+  <div class="mosaic-grid three-by-three">
+    <article class="mosaic-card"><h4>Ship Management</h4></article>
+    <article class="mosaic-card"><h4>Commercial Ship Management</h4></article>
+    <article class="mosaic-card"><h4>Technical Ship Management</h4></article>
+
+    <article class="mosaic-card"><h4>Freight Trading</h4></article>
+    <article class="mosaic-card"><h4>Commodity Broking</h4></article>
+    <article class="mosaic-card"><h4>Technical Services</h4></article>
+
+    <article class="mosaic-card"><h4>Surveys</h4></article>
+    <article class="mosaic-card"><h4>Studies</h4></article>
+    <article class="mosaic-card"><h4>Advisory Services</h4></article>
+  </div>
+
+  <!-- Centered Buttons -->
+  <div class="mosaic-buttons">
+    <a href="./about.html" class="btn-outline">About Us</a>
+    <a href="./services.html" class="btn-accent">Our Services</a>
+  </div>
+</section>
+
+
+
+
+<section class="service-info-card">
+  <p>
+    Cosmolinkships <span class="highlight">is an expert</span> in the field of open registries and technical consultancy, 
+   The firm has deep roots in the industry, <span class="highlight">dating back to 1968</span>
+  </p>
+
+</section>
+
+
+
+
+<section class="brand-honeycomb" aria-label="Countries we work with">
+  <div class="hive-shell">
+    <h3 class="hive-title"></h3>
+
+    <ul class="hive">
+      <li class="hex"><img src="./pics/bulgaria.png" alt="Bulgaria"></li>
+      <li class="hex"><img src="./pics/cambodia.png" alt="Cambodia"></li>
+      <li class="hex"><img src="./pics/comoros.png" alt="Comoros"></li>
+      <li class="hex"><img src="./pics/cook-islands.png" alt="Cook Islands"></li>
+
+      <li class="hex"><img src="./pics/dellaware.png" alt="Delaware"></li>
+      <li class="hex"><img src="./pics/dominica.png" alt="Dominica"></li>
+      <li class="hex"><img src="./pics/finland.png" alt="Finland"></li>
+      <li class="hex"><img src="./pics/georgia.png" alt="Georgia"></li>
+    </ul>
+  </div>
+</section>
+
+
+
+<!-- Sticky Contact Button -->
+<!-- Sticky Contact Us Button -->
+<a href="./contact.html" class="contact-cta" aria-label="Contact Us">Contact&nbsp;Us</a>
+
+
+
+      
+
+
+
+
+<!-- CONTACT POPUP -->
+<div class="contact-popup-overlay" id="contactPopup">
+
+  <div class="contact-popup">
+    <button class="popup-close" aria-label="Close">&times;</button>
+
+    <!-- SINGLE FORM ONLY -->
+    <form class="contact-form" action="/contact" method="POST" novalidate>
+
+      <div class="form-grid">
+        <div class="form-field">
+          <label for="name">Name <span>*</span></label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required />
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email address <span>*</span></label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+      </div>
+
+      <fieldset class="company-box">
+        <legend>Company Information</legend>
+
+        <div class="form-grid">
+          <div class="form-field">
+            <label for="country">Country <span>*</span></label>
+            <input type="text" id="country" name="country" required />
+          </div>
+
+          <div class="form-field">
+            <label for="company">Company name <span>*</span></label>
+            <input type="text" id="company" name="company" required />
+          </div>
+
+          <div class="form-field form-field--full">
+            <label for="position">Your position</label>
+            <input type="text" id="position" name="position" />
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="form-field">
+        <label for="message">How may we help you? <span>*</span></label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn-submit">Submit</button>
+      </div>
+
+    </form>
+
+  </div>
+</div>
+
+    
+    <script src="script.js"></script>
+</body>
+
+
+
+      <footer class="site-footer">
+        <div class="footer-container">
+      
+          <!-- Brand -->
+          <div class="footer-col footer-brand">
+            <img src="./pics/logo2.png" alt="Cosmolinkship Logo" class="footer-logo">
+            <h3></h3>
+          </div>
+      
+          <!-- Address -->
+          <div class="footer-col">
+            <h4>Address</h4>
+            <p>Office No.: 1301, Radiance business <br> center Mai Tower,Al Nahda-1, Dubai <br>234797 - UAE</p>
+      
+            <p><strong>Tel.:</strong> +971 045 93 5391<br>
+               <strong>Fax:</strong> +971 045 93 5391<br>
+               <strong>Email:</strong> <a href="mailto:info@cosmolinkship.com">info@cosmolinkship.com</a>
+            </p>
+          </div>
+      
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <ul class="footer-links">
+                <h4>Quick Links</h4>
+              <li><a href="#home">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <li><a href="#careers">Careers</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+      
+          <!-- Search -->
+          <!-- Legal -->
+<div class="footer-col">
+  <h4>LEGAL</h4>
+  <ul class="footer-links">
+    <li><a href="/privacy-policy">Privacy Policy</a></li>
+    <li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
+  </ul>
+</div>
+
+      
+        </div>
+      
+        <!-- Bottom line -->
+        <div class="footer-bottom">
+          <p class="footerpara">© 2025 Cosmolinkship | All rights reserved | Developed by <span class="brand-highlight">WDK</span></p>
+        </div>
+      </footer>
+</html>

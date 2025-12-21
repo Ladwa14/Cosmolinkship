@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <header class="site-header">
+        <div class="container">
+          <a href="/" class="logo">
+            <img src="./pics/logo2.png" alt="Inship Services">
+          </a>
+      
+          <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+      
+          <nav class="nav">
+            <ul>
+              <li><a href="./index.html" >Home</a></li>
+              <li><a href="./about.html" >About</a></li>
+              <li><a href="./services.html" >Services</a></li>
+              <li><a href="./careers.html"  class="active">Careers</a></li>
+              <li><a href="./contact.html" class="btn-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+
+
+       <section class="about-section-2" id="about">
+  <div class="about-container">
+    <h1 class="about-title">Careers</h1>
+    <p class="about-text">
+   If you want to work for <span class="highlight">Cosmolinkship</span>, you can  send us your resume here. We are always looking for talented, ambitious people with professional  work ethic. 
+      <br><br>
+    
+    </p>
+  </div>
+</section>
+
+
+
+
+  <!-- ===== Careers Section (Cosmolinkships) ===== -->
+  <section class="careers-section" id="careers">
+    <div class="careers-wrap">
+      <header class="careers-head">
+        <h2></h2>
+        <p></p>
+      </header>
+
+      <form class="careers-form" action="/apply" method="POST" enctype="multipart/form-data" novalidate>
+        <div class="form-panel">
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="name">Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required autocomplete="name" />
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email address <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+            </div>
+
+            <div class="form-field">
+              <label for="phone">Phone number <span aria-hidden="true">*</span></label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required
+                     pattern="^[0-9+\-\s()]{7,}$" inputmode="tel" autocomplete="tel" />
+            </div>
+
+            <div class="form-field">
+              <label for="resume">Resume <span aria-hidden="true">*</span></label>
+              <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required />
+              <small class="hint">PDF, DOC, or DOCX (max 5MB)</small>
+            </div>
+
+            <div class="form-field form-field--full">
+              <label for="comments">Comments</label>
+              <textarea id="comments" name="comments" rows="4"
+                placeholder="Tell us briefly about your experience, notice period, etc."></textarea>
+            </div>
+
+            <div class="form-actions form-field--full">
+              <button type="submit" class="btn-submit">Submit</button>
+              <p class="privacy-note">By submitting, you agree to our privacy policy.</p>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+
+
+<script src="script.js"></script>
+    
+</body>
+
+
+<footer class="site-footer">
+        <div class="footer-container">
+      
+          <!-- Brand -->
+          <div class="footer-col footer-brand">
+            <img src="./pics/logo2.png" alt="Cosmolinkship Logo" class="footer-logo">
+            <h3></h3>
+          </div>
+      
+          <!-- Address -->
+          <div class="footer-col">
+            <h4>Address</h4>
+            <p>Office No.: 1301, Radiance business <br> center Mai Tower,Al Nahda-1, Dubai <br>234797 - UAE</p>
+      
+            <p><strong>Tel.:</strong> +971 045 93 5391<br>
+               <strong>Fax:</strong> +971 045 93 5391<br>
+               <strong>Email:</strong> <a href="mailto:info@cosmolinkship.com">info@cosmolinkship.com</a>
+            </p>
+          </div>
+      
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <ul class="footer-links">
+                <h4>Quick Links</h4>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#careers">Careers</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+      
+          <!-- Search -->
+          <!-- Legal -->
+<div class="footer-col">
+  <h4>LEGAL</h4>
+  <ul class="footer-links">
+    <li><a href="/privacy-policy">Privacy Policy</a></li>
+    <li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
+  </ul>
+</div>
+
+      
+        </div>
+      
+        <!-- Bottom line -->
+        <div class="footer-bottom">
+          <p class="footerpara">© 2025 Cosmolinkship | All rights reserved | Developed by <span class="brand-highlight">WDK</span></p>
+        </div>
+      </footer>
+
+
+</html>

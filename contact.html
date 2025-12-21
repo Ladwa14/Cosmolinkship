@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <header class="site-header">
+        <div class="container">
+          <a href="/" class="logo">
+            <img src="./pics/logo2.png" alt="Inship Services">
+          </a>
+      
+          <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+      
+          <nav class="nav">
+            <ul>
+              <li><a href="./index.html" >Home</a></li>
+              <li><a href="./about.html" >About</a></li>
+              <li><a href="./services.html" >Services</a></li>
+              <li><a href="./careers.html"  >Careers</a></li>
+              <li><a href="./contact.html" class="active" class="btn-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+<main class="contact-page">
+
+    <!-- Contact Grid -->
+    <section class="contact-grid container">
+      <!-- LEFT: Address card + Map below -->
+      <aside class="left-col">
+        <div class="info-card">
+          <h1>Contact Us</h1>
+
+          <h2>Address</h2>
+          <address>
+            66, Filonos Str, Piraeus<br />
+            185 35 – Greece
+          </address>
+
+          <ul class="contact-lines">
+            <li><strong>Tel.:</strong> +30 210 42 21 324-5</li>
+            <li><strong>Fax:</strong> +30 210 42 21 326</li>
+            <li><strong>Email:</strong> <a href="mailto:info@cosmolinkship.com">info@cosmolinkship.com</a></li>
+          </ul>
+        </div>
+
+        <!-- Map directly under the card -->
+        <div class="map-embed">
+          <iframe
+            title="Cosmolinkships Location"
+            src="https://www.google.com/maps?q=66,+Filonos+Str,+Piraeus+185+35,+Greece&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </aside>
+
+      <!-- RIGHT: Form -->
+      <section class="contact-form-wrap">
+        <form class="contact-form" action="/contact" method="POST" novalidate>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="name">Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required autocomplete="name" />
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email address <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+            </div>
+          </div>
+
+          <fieldset class="company-box">
+            <legend>Company Information</legend>
+
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="country">Country <span aria-hidden="true">*</span></label>
+                <input type="text" id="country" name="country" placeholder="Country" required />
+              </div>
+
+              <div class="form-field">
+                <label for="company">Company name <span aria-hidden="true">*</span></label>
+                <input type="text" id="company" name="company" placeholder="Your company" required />
+              </div>
+
+              <div class="form-field form-field--full">
+                <label for="position">Your position</label>
+                <input type="text" id="position" name="position" placeholder="e.g., Operations Manager" />
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="form-field">
+            <label for="message">How may we help you? <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message…" required></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn-submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </section>
+
+  </main>
+
+    <script src="script.js"></script>
+</body>
+
+
+<footer class="site-footer">
+        <div class="footer-container">
+      
+          <!-- Brand -->
+          <div class="footer-col footer-brand">
+            <img src="./pics/logo2.png" alt="Cosmolinkship Logo" class="footer-logo">
+            <h3></h3>
+          </div>
+      
+          <!-- Address -->
+          <div class="footer-col">
+            <h4>Address</h4>
+            <p>Office No.: 1301, Radiance business <br> center Mai Tower,Al Nahda-1, Dubai <br>234797 - UAE</p>
+      
+            <p><strong>Tel.:</strong> +971 045 93 5391<br>
+               <strong>Fax:</strong> +971 045 93 5391<br>
+               <strong>Email:</strong> <a href="mailto:info@cosmolinkship.com">info@cosmolinkship.com</a>
+            </p>
+          </div>
+      
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <ul class="footer-links">
+                <h4>Quick Links</h4>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#careers">Careers</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+      
+          <!-- Search -->
+          <!-- Legal -->
+<div class="footer-col">
+  <h4>LEGAL</h4>
+  <ul class="footer-links">
+    <li><a href="/privacy-policy">Privacy Policy</a></li>
+    <li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
+  </ul>
+</div>
+
+      
+        </div>
+      
+        <!-- Bottom line -->
+        <div class="footer-bottom">
+          <p class="footerpara">© 2025 Cosmolinkship | All rights reserved | Developed by <span class="brand-highlight">WDK</span></p>
+        </div>
+      </footer>
+
+
+
+</html>
