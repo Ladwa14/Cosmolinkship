@@ -1516,7 +1516,7 @@ textarea {
 }
 
 
-@media (max-width:478px){
+@media (max-width: 478px){
 
   .popup-close{
   top: 25px !important;  
@@ -1527,4 +1527,5 @@ textarea {
   }
   
 }
+
 
