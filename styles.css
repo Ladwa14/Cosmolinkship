@@ -117,16 +117,22 @@ body{
     background: none;
     border: none;
   }
-
   .nav.open{
-    margin-top: 27px;
+    margin-top: 27px !important;
   }
+
   .nav ul {
     flex-direction: row;
     align-items: center;
     gap: 20px;
   }
   .nav-toggle { display: none; }
+}
+
+@media (max-width: 478px){
+    .nav.open{
+    margin-top: 27px !important;
+  }
 }
 
 /* ---------- Tablet/Mobile (≤768px) ---------- */
@@ -1546,6 +1552,7 @@ textarea {
 }
 
 }
+
 
 
 
