@@ -128,7 +128,7 @@ body{
 /* ---------- Tablet/Mobile (≤768px) ---------- */
 @media (max-width: 768px) {
   .container { padding: 10px 16px; }
-  .logo img { height: 52px; }
+  .logo img { height: 60px; }
   .nav { top: 56px; border-top: 1px solid #e2e8f0; }
   .nav ul { padding: 12px 16px; gap: 6px; }
   .nav ul li a { padding: 12px 10px; }
@@ -137,7 +137,7 @@ body{
 
 /* ---------- Small Mobile (≤480px) ---------- */
 @media (max-width: 480px) {
-  .logo img { height: 46px; }
+  .logo img { height: 60px; }
   .nav { top: 52px; }
 }
 
@@ -1542,5 +1542,6 @@ textarea {
 }
 
 }
+
 
 
