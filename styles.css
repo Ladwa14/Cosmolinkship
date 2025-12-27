@@ -1529,5 +1529,18 @@ textarea {
   
 }
 
+@media (max-width:478px){
+
+.form-grid {
+      margin: 0px 15px;
+}
+
+
+
+.form-panel {
+      margin: 0px 10px;
+}
+
+}
 
 
